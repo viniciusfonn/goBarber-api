@@ -4,7 +4,7 @@ import routes from './routes';
 import './database';
 
 class App {
-  consructor() {
+  constructor() {
     this.server = express();
     this.middlewares();
     this.routes();
